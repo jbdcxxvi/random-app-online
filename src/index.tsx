@@ -1,15 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import App from './App';
+import TicTacToe from './pages/TicTacToe';
+import SQL from './pages/SQL';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const container = document.getElementById('root')!;
+const root = createRoot(container);
 root.render(
-  <React.StrictMode>
-    <App />
+<React.StrictMode>
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/pages/TicTacToe" element={<TicTacToe />} />
+        <Route path="/pages/SQL" element={<SQL />} />
+        {/* Define other routes here */}
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
