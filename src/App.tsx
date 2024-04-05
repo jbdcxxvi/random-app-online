@@ -11,7 +11,7 @@ const App: React.FC = () => {
   return (
 <div className="container">
     <div className="row text-center">
-        <div className="col-sm-2">
+        <div className="col-sm-3">
             <div className="card mt-4">
                 <center>
                     <img className="card-img-top rounded-circle p-2 mt-1 mb-3 ml-1 mr-1" src={profilelogo} alt="Logo" style={{width:"150px", height:"150px"}} />
