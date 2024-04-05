@@ -59,7 +59,7 @@ const App: React.FC = () => {
         <div className="col-sm-2">
             <div className="card mt-4">
                 <center>
-                    <img className="card-img-top p-2 mt-1 mb-3 ml-1 mr-1" src={pythonlogo} alt="Logo" style={{width:"150px", height:"150px"}} />
+                    <img className="card-img-top p-2 mt-1 mb-3 ml-1 mr-1" src={dblogo} alt="Logo" style={{width:"150px", height:"150px"}} />
                     <div className="card-body">
                         <h5 className="card-title">Database Modeling</h5>
                         <p className="card-text">A Database Model Integration</p>
