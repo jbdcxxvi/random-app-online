@@ -7,6 +7,7 @@ import App from './App';
 import TicTacToe from './pages/TicTacToe';
 import SQL from './pages/SQL';
 import reportWebVitals from './reportWebVitals';
+import PythonApp from './pages/PythonApp';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
@@ -17,6 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/pages/TicTacToe" element={<TicTacToe />} />
         <Route path="/pages/SQL" element={<SQL />} />
+        <Route path="/pages/PythonApp" element={<PythonApp />}/>
         {/* Define other routes here */}
       </Routes>
     </Router>

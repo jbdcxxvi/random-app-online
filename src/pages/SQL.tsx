@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import {API_BASE_URL, USER_NAME, PASSWORD, DATABASE, PORT} from '../config';
 
-const SQL = () => {
+const SQL: React.FC = () => {
 
     // const { Client } = require('pg');
     // let Connected = '';

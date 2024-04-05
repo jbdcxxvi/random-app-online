@@ -48,7 +48,7 @@ const App: React.FC = () => {
                     <div className="card-body">
                         <h5 className="card-title">Python Programming</h5>
                         <p className="card-text">S3 Uploader and File Converter</p>
-                        <Link className="btn btn-secondary" to="/pages/SQL" rel="noopener noreferrer">
+                        <Link className="btn btn-secondary" to="/pages/PythonApp" rel="noopener noreferrer">
                             <span className="bi bi-filetype-py p-1"></span>
                             Python
                         </Link>

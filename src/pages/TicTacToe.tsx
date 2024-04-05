@@ -7,7 +7,7 @@ import Xlogo from '../assets/images/X.png';
 
 const initialBoard = Array(9).fill('');
 
-const TicTacToe = () => {
+const TicTacToe: React.FC = () => {
     const [board, setBoard] = useState(initialBoard);
   const [xIsNext, setXIsNext] = useState(true);
   const [winner, setWinner] = useState('');
